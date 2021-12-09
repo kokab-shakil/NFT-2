@@ -39,6 +39,7 @@ Surjith S M / @surjithctly
     <!--========== Main Styles==========-->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/card.css" rel="stylesheet">
 
     <!-- Theme CSS (For Available Color Options, See Documentation ) -->
     <link href="css/themes/blue-orange.css" rel="stylesheet">
@@ -435,7 +436,66 @@ Surjith S M / @surjithctly
         <div class="container">
             <div class="row">
                 <div class="col-md-5 col-md-offset-1 text-center the-watch-img wow zoomIn">
-                    <img src="images/the-watch.png" alt="" class="img-responsive">
+                     <div className='mainCardContent'>
+      <div className='cardContent'>
+          <div className="mainText">
+              <h1 className="boldHead">Free</h1>
+              <h1 className="semiboldHead">0 USD</h1>
+             
+          </div>
+          <p className="planParagraph">Get your free subscription to tryout our software.</p>
+          <p className="bar"></p>
+          <p className="planincludesPara">Plan includes</p>
+          <!--  -->
+          <div >
+          <div  className="planincludes" >
+              <p  className="paraTextIncludes">Number of generation</p>
+              <p  className="paraTextIncludes">50</p>
+          </div>
+         <!--  -->
+          <div  className="planincludes" >
+              <p  className="paraTextIncludes">NFTs per generation</p>
+              <img src={tick} alt="" />
+          </div>
+         <!--  -->
+          <div  className="planincludes" >
+              <p  className="paraTextIncludes">Rarity option</p>
+              <img src={tick} alt="" />
+          </div>
+         <!--  -->
+           <div  className="planincludes" >
+              <p  className="paraTextIncludes">Chat support</p>
+              <img src={tick} alt="" />
+          </div>
+         <!--  -->
+           <div  className="planincludes" >
+              <p  className="paraTextIncludes">ETH support</p>
+              <img src={tick} alt="" />
+          </div>
+         <!--  -->
+            <div  className="planincludes" >
+              <p  className="paraTextIncludes">SOL support</p>
+              <img src={cross} alt="" />
+          </div>
+         <!--  -->
+          <div  className="planincludes" >
+              <p  className="paraTextIncludes">ADA support</p>
+              <img src={cross} alt="" />
+          </div>
+         <!--  -->
+          <div  className="planincludes" >
+              <p  className="paraTextIncludes">Watermark free NFTs</p>
+              <img src={cross} alt="" />
+          </div>
+          </div>
+         <!--  -->
+          <div className="btn-Con">
+              <button className="btn" onClick={handleDownload}>
+                  Download free software
+              </button>
+          </div>
+          </div>
+                    <!-- <img src="images/the-watch.png" alt="" class="img-responsive"> -->
                 </div>
                 <div class="col-md-6 the-watch-features">
                     <div class="row section-header v3 wow fadeIn">
@@ -491,22 +551,64 @@ Surjith S M / @surjithctly
       <div class="swiper-wrapper">
         <div class="swiper-slide">
             <p>Watch is the most ambitious, well constructed smartwatch ever seen, but first-gen shortfalls make it feel more like a fashionable toy than a necessary tool.</p>
+            <div class="ReviewerName">
             <h5 class="ReviwwerName">Lusha John</h5>
+               <div class="starIconContainer">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+
+                </div>
+            </div>
             <p class="projectName">Watch is the most</p>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide" >
             <p>Watch is the most ambitious, well constructed smartwatch ever seen, but first-gen shortfalls make it feel more like a fashionable toy than a necessary tool.</p>
-             <h5 class="ReviwwerName">Robert hijai</h5>
+            <div class="ReviewerName">
+                <h5 class="ReviwwerName">Robert hijai</h5>
+                <div class="starIconContainer">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+
+                </div>
+            </div>
+             
              <p class="projectName">Watch is the most</p>
         </div>
         <div class="swiper-slide">
             <p>Watch is the most ambitious, well constructed smartwatch ever seen, but first-gen shortfalls make it feel more like a fashionable toy than a necessary tool.</p>
-             <h5 class="ReviwwerName">Mary patricka</h5>
+            <div class="ReviewerName">
+                 <h5 class="ReviwwerName">Mary patricka</h5>
+                  <div class="starIconContainer">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+
+                </div>
+            </div>
+            
             <p class="projectName">Watch is the most</p>
         </div>
         <div class="swiper-slide">
             <p>Watch is the most ambitious, well constructed smartwatch ever seen, but first-gen shortfalls make it feel more like a fashionable toy than a necessary tool.</p>
+            <div class="ReviewerName">
             <h5 class="ReviwwerName">Lusha John</h5>
+             <div class="starIconContainer">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+                 <img src="images/icons/star.svg" alt="" class="staricon">
+
+                </div>
+            </div>
             <p class="projectName">Watch is the most</p>
         </div>
        
